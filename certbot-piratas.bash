@@ -78,6 +78,7 @@ SUBDOMINIOS=( \
 "sul" \
 #"taiga" \
 #"teste" \
+"tesouraria" \
 "torrent" \
 "transparencia" \
 #"trello" \
