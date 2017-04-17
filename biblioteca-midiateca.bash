@@ -10,5 +10,6 @@ rsync -avhP ${BIBLIOTECA_DIR}/ biblioteca/
 git add biblioteca
 git commit -am "Atualizando arquivos da biblioteca"
 git push origin master
+rm -rf biblioteca/*
 popd
 
