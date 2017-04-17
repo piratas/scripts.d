@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Adiciona arquivos da biblioteca pirata na midiateca pirata
-## Rodando na crontab do usuário mediagoblin@entwickler.partidopirata.org de hora em hora
+## Rodando na crontab do usuário mediagoblin@entwickler.partidopirata.org diariamente
 
 BIBLIOTECA_DIR="/var/lib/mediagoblin/mediagoblin/user_dev/media/public/media_entries"
 MIDIATECA_DIR="/var/lib/mediagoblin/git/midiateca"
