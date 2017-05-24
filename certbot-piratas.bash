@@ -36,7 +36,7 @@ SUBDOMINIOS=( \
 #"dev" \
 "embarque" \
 #"faq" \
-#"ftp" \
+"ftp" \
 #"financiamento" \
 "git" \
 "github" \
