@@ -32,6 +32,7 @@ SUBDOMINIOS=( \
 #"assembleia2016" \
 "biblioteca" \
 #"blog" \
+"btorrent" \
 #"crowdfunding" \
 #"dev" \
 "embarque" \
