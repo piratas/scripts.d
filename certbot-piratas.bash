@@ -36,6 +36,7 @@ SUBDOMINIOS=( \
 #"crowdfunding" \
 #"dev" \
 "embarque" \
+"etherpad" \
 #"faq" \
 "ftp" \
 #"financiamento" \
@@ -63,7 +64,7 @@ SUBDOMINIOS=( \
 #"nao-dev" \
 "noosfero" \
 #"ns" \
-#"pad" \
+"pad" \
 #"radio" \
 #"rede" \
 #"rs" \
