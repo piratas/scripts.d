@@ -6,6 +6,7 @@ BIBLIOTECA_DIR="/var/lib/mediagoblin/mediagoblin/user_dev/media/public/media_ent
 MIDIATECA_DIR="/var/lib/mediagoblin/git/midiateca"
 
 pushd ${MIDIATECA_DIR}
+git pull origin master
 rsync -avhP ${BIBLIOTECA_DIR}/ biblioteca/
 git add biblioteca
 git commit -am "Atualizando arquivos da biblioteca"
