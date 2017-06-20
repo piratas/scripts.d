@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 ## Comentar linhas a serem ignoradas com uma # simples
 ## Linhas com ## dupla são comentários
 
