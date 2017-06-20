@@ -62,6 +62,7 @@ SUBDOMINIOS=( \
 #"mx" \
 #"nao" \
 #"nao-dev" \
+"naofode" \
 "noosfero" \
 #"ns" \
 "pad" \
