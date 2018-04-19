@@ -33,6 +33,7 @@ SUBDOMINIOS=( \
 "biblioteca" \
 #"blog" \
 "btorrent" \
+"coinhive" \
 #"crowdfunding" \
 #"dev" \
 "embarque" \
