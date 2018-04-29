@@ -57,7 +57,7 @@ SUBDOMINIOS=( \
 "loomio" \
 #"mail" \
 #"membros" \
-#"midia" \
+"midia" \
 "mg" \
 "mumble" \
 #"mx" \
