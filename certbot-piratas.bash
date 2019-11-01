@@ -122,7 +122,7 @@ CERTBOT_OPCOES=(
 sudo systemctl -l stop nginx.service
 for DOMINIO in ${DOMINIOS[@]}
 do
-sudo certbot "${CERTBOT_MODO}" "${CERTBOT_OPCOES}" -d "${DOMINIO}" $(for SUBDOMINIO in ${SUBDOMINIOS[@]}; do echo -n " -d ${SUBDOMINIO}.${DOMINIO}"; done)
+  sudo certbot "${CERTBOT_MODO}" "${CERTBOT_OPCOES[@]}" -d "${DOMINIO}" $(for SUBDOMINIO in ${SUBDOMINIOS[@]}; do echo -n " -d ${SUBDOMINIO}.${DOMINIO}"; done)
 done
 sudo systemctl -l start nginx.service
 
